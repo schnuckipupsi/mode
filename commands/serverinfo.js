@@ -25,7 +25,7 @@ exports.run = (client, message, args) => {
     `${human.date('m-d-y', g.createdAt)}`, true)
   .addField("Guild ID",
     `${g.id}`, true)
-  .setFooter("coded by gonzo#3813")
+  .setFooter("codet by 7alex#0059")
   .setTimestamp()
   message.channel.send(embed);
 }
